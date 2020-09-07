@@ -11,6 +11,7 @@
 
 body{
   font-family: 'Poppins', sans-serif;
+  overflow-x: hidden;
 }
 
 h1, h2, h3{
@@ -18,7 +19,7 @@ h1, h2, h3{
 }
 
 h1#site-title{
-  font-size: 5vw;
+  font-size: 6rem;
 }
 
 p{
@@ -67,6 +68,7 @@ header{
 
 .download-btn{
   width: 85%;
+  margin-top: 2.5rem;
 }
 
 .download-div{
@@ -77,16 +79,13 @@ header{
   margin-right: 5%;
 }
 
-.download-info{
-  width: 100%;
-  text-align: center;
-}
+
 
 .download-text{
   font-family: 'Montserrat', sans-serif;
   color: 	#FFA500;
   font-size: 5vw;
-  margin-top: 25%;
+  text-align: center;
 }
 
 .dropdown-menu a{
@@ -120,22 +119,22 @@ header{
 }
 
 .center{
-  position: absolute;
-  margin: 0;
+  /* position: absolute; */
+  /* margin: 0;
   top: 50%;
   left: 50%;
   -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); */
 }
 
 .subtitle{
-  color: var(--color-dark-light);
+  color: var(--color-orange);
   font-weight: bold;
 }
 
 .background-text{
   color: white;
-
+  position: absolute;
 }
 
 .form-div{
@@ -252,7 +251,7 @@ header{
 
 @media (max-width: 991px){
   #register-btn{
-	   margin-top: 2rem;
+	   margin-top: 1rem;
   }
 
   .download-btn{
@@ -261,7 +260,16 @@ header{
   }
 
   .download-text{
-	   margin: 2rem 0;
+     margin-top: 5%;
      font-size: 4rem;
+  }
+
+  .subtitle{
+    font-size: 1.5rem;
+  }
+
+  .video{
+    width: 250%;
+    height: 250%;
   }
 }
