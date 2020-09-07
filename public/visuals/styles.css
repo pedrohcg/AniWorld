@@ -40,7 +40,6 @@ header{
 /* Classes */
 .navbar{
   background-color: var(--color-dark-light);
-  padding: 2rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -52,17 +51,16 @@ header{
   margin: 0.5rem 0.5rem;
 }
 
+.navbar-toggler{
+  color: gray;
+}
+
 .button-div{
   margin-top: 20%;
 }
 
 .color-section{
   background-color: var(--color-dark-light);
-}
-
-.collapse.navbar-collapse{
-  display: flex;
-  justify-content: center;
 }
 
 .download-btn{
@@ -308,13 +306,6 @@ header{
 
 .card-body h2,p{
   font-family: "Poppins", sans-serif;
-}
-
-.carousel-div{
-  /* background-image: url("../assets/images/lordelmelloi.jpg");
-  background-repeat: no-repeat; */
-  background-color: var(--color-dark-light);
-  background-size: cover;
 }
 
 .price-text{
