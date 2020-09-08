@@ -1,3 +1,4 @@
 $('.carousel').carousel({
-    pause: "hover"
+    pause: "hover",
+    touch: "true"
 })
