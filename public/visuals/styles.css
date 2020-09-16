@@ -46,12 +46,12 @@ header{
   text-align: center;
 }
 
-.navtitle a span{
+/* .navtitle a span{
   font-size: 1.5rem;
   color: var(--color-white);
   font-weight: bold;
   text-shadow: 0.25rem 0.188rem 0.125rem var(--color-orange);
-}
+} */
 
 .nav-button{
   width: 8rem;
@@ -110,10 +110,6 @@ header{
 .navbar-nav.text-center li a:hover{
   font-weight: bold;
   color: var(--color-orange);
-}
-
-.navlink{
-  color: var(--color-white);
 }
 
 .btn{
@@ -233,7 +229,6 @@ header{
 .frame4{
   background-color: var(--color-orange);
   padding: 2rem 0;
-
 }
 
 .titleSubscription{
@@ -317,6 +312,7 @@ header{
   width: 100%;
   transition: width 1.5s ease-in-out;
   padding-right: 1rem;
+  list-style-position: inside;
 }
 
 
@@ -362,8 +358,7 @@ header{
   list-style-type: circle;
   font-size: 1.25rem;
   line-height: 1.5rem;
-  list-style-position: inside;  
-  /* list-style-image: url("../assets/images/correct.svg"); */
+  list-style-position: inside;
 }
 .benefits li:first-child{
   margin-top: 1rem;
