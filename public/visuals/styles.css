@@ -162,6 +162,7 @@ header{
 .feature-text{
   padding-top: 2.5rem;
   font-size: 1.5rem;
+  font-weight: bold;
 }
 
 .feature-icon:hover{
@@ -183,14 +184,13 @@ header{
 .anime-content-div{
   width: 80%;
   height: 80%;
-  text-align: center;
   padding: 5% 2%;
 }
 
 .anime-title{
   color: orange;
   font-style: bold;
-  font-size: 2.7rem;
+  font-size: 3rem;
   padding: 1rem 0;
 }
 
@@ -239,14 +239,14 @@ header{
 
 .titleSubscription h1{
   border-top: 3px solid var(--color-white);
-  font-size: 34px;
-  margin-bottom: 16px;
+  font-size: 4rem;
+  margin-bottom: 1.5rem;
   font-weight: bold;
   padding-top: 4%;
 }
 
 .titleSubscription p{
-  font-size: 18px;
+  font-size: 2rem;
   font-weight: bold;
   color: var(--color-dark-light);
   padding-bottom: 4%;
@@ -334,6 +334,7 @@ header{
 
 .card-body h2,p{
   font-family: "Poppins", sans-serif;
+  font-size: 2.5rem;
 }
 
 .price-text{
@@ -354,10 +355,9 @@ header{
 }
 
 .benefits{
-  padding: 1rem;
   list-style-type: circle;
-  font-size: 1.25rem;
-  line-height: 1.5rem;
+  font-size: 1.75rem;
+  line-height: 2rem;
   list-style-position: inside;
 }
 .benefits li:first-child{
@@ -367,10 +367,10 @@ header{
 .benefits li:last-child{
   margin-bottom: 1rem;
 }
-
+/*
 .benefits li + li{
   margin-top: 1rem;
-}
+} */
 
 
 .benefits::before{
@@ -452,6 +452,14 @@ header{
   box-shadow: 0.4rem 0.1rem 0.125rem var(--color-orange);
 }
 
+.carousel-text{
+  text-align: justify;
+  font-size: 6rem;
+}
+
+.anime-title{
+  text-align: center;
+}
 
 .socialinks a + a{
   margin-left: 4rem;
@@ -535,32 +543,64 @@ header{
 
 @media (max-width: 1060px){
 
-  .anime-content-div{
-    padding: 0 1rem 3rem 1rem;
+  h1#site-title{
+    font-size: 10rem;
+    text-align: center;
   }
 
-  .anime-content-div.carousel-text{
+  p.subtitle{
+    font-size: 3rem;
+  }
+
+  #register-input{
+    padding: 2rem 0;
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  #register-btn{
+    width: 60%;
+    font-size: 2rem;
+    padding: 1.5rem 0;
+  }
+
+  .carousel-text{
     padding: 0.5rem 1rem;
   }
 
   .download-btn{
     width: 100%;
+    height: 6rem;
+    font-size: 2rem;
+  }
+
+  .feature-text{
+    font-size: 2.5rem;
   }
 
   .download-text{
-     font-size: 4rem;
+     font-size: 8rem;
+  }
+
+  .iframe-container{
+
   }
 
   .subtitle{
     font-size: 1.5rem;
   }
 
+  .anime-title{
+    font-size: 6rem;
+    text-align: center;
+  }
+
   .synopsis{
-    font-size: 2vw;
+    font-size: 2.5rem;
   }
 
   .video{
-    width: 250%;
-    height: 250%;
+    width: 350%;
+    height: 350%;
   }
 }
