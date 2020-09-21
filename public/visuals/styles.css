@@ -367,7 +367,7 @@ header{
 .benefits{
   font-family: 'Montserrat';
   list-style-type: circle;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   line-height: 2rem;
   list-style-position: inside;
 }
@@ -546,7 +546,7 @@ header{
   text-shadow: 0.5rem 0.125rem 1rem var(--color-black);
 }
 
-@media (max-width: 1060px){
+@media (max-width: 1280px){
 
   h1#site-title{
     margin-top: 10%;
