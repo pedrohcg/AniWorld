@@ -156,6 +156,10 @@ header{
   margin: 7% 0;
 }
 
+.from-cell{
+  margin: 1rem 0;
+}
+
 .video-div{
   overflow-x: hidden;
 }
@@ -561,10 +565,10 @@ header{
 
   #register-btn{
     width: 80%;
-    font-size: 3rem;
+    font-size: 1.5rem;
     font-weight: bold;
     margin-top: 1rem;
-    padding: 2rem 0;
+    padding: 0.5rem 0;
   }
 
   .carousel-text{
@@ -616,7 +620,7 @@ header{
   }
 }
 
-@media (max-width: 720px){
+@media (max-width: 576px){
   h1#site-title{
     font-size: 6rem;
   }
