@@ -601,6 +601,11 @@ a.card-btn{
     font-size: 2rem;
   }
 
+  .card-div{
+    width: 80%;
+    height: 80%;
+  }
+
   .feature-text{
     font-size: 2.5rem;
   }
