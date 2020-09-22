@@ -21,21 +21,18 @@ h1#site-title{
   font-size: 10rem;
 }
 
-p{
-  font-family: 'Montserrat', sans-serif;
-  font-size: 1rem;
-}
-
 .navbarsection a{
   text-decoration: none;
   color: var(--color-white);
-
 }
 
 header{
   box-sizing: border-box;
 }
 
+a.card-btn{
+  text-decoration: none;
+}
 
 /* Classes */
 .navbar{
@@ -88,6 +85,7 @@ header{
 .download-btn{
   width: 85%;
   margin-top: 2.5rem;
+  font-size: 1.5rem;
 }
 
 .download-div{
@@ -104,9 +102,8 @@ header{
 }
 
 .download-text{
-  font-family: 'Montserrat', sans-serif;
   color: 	#FFA500;
-  font-size: 5vw;
+  font-size: 9rem;
   text-align: center;
 }
 
@@ -205,7 +202,7 @@ header{
 .anime-content-div{
   width: 90%;
   height: 90%;
-  padding: 3% 3% 3%;
+  padding: 3%;
 }
 
 .anime-title{
@@ -217,9 +214,10 @@ header{
 }
 
 .synopsis{
+  font-family: 'Merriweather';
   color: gray;
-  font-size: 1rem;
-  justify-content: center;
+  font-size: 1.3rem;
+  text-align: justify;
 }
 
 .iframe-container{
@@ -249,7 +247,7 @@ header{
 }
 
 .frame4{
-  background-color: var(--color-orange);
+  background-color: orange;
   padding: 2rem 0;
 }
 
@@ -277,8 +275,8 @@ header{
 }
 
 .card-btn{
-  width: 90%;
-  height: 90%;
+  width: 80%;
+  height: 80%;
   margin-bottom: 2rem;
 }
 
@@ -349,10 +347,15 @@ header{
 }
 
 .card-header h1 span{
-  font-size: 4rem;
-  color: var(--color-white);
   font-weight: bold;
   text-shadow: 0.25rem 0.188rem 0.125rem var(--color-orange);
+}
+
+.titleSubscription h1 span{
+  font-size: 6rem;
+  color: white;
+  font-weight: bold;
+  text-shadow: 0.25rem 0.188rem 0.125rem black;
 }
 
 /* .card-body h2,p{
@@ -380,10 +383,9 @@ header{
 
 .benefits{
   font-family: 'Montserrat';
-  list-style-type: circle;
-  font-size: 1.25rem;
+  list-style-type: disk;
+  font-size: 1.5rem;
   line-height: 2rem;
-  list-style-position: inside;
 }
 .benefits li:first-child{
   padding-top: 1rem;
@@ -581,12 +583,17 @@ header{
     padding: 0.5rem 0;
   }
 
+  .card-cell{
+    width: 70%;
+    height: 70%;
+  }
+
   .carousel-text{
     padding: 0.5rem 1rem;
   }
 
-  .download-text{
-     font-size: 6rem;
+  .carousel-indicators{
+    display: none;
   }
 
   .download-btn{
@@ -607,11 +614,6 @@ header{
     font-size: 4rem;
   }
 
-  .synopsis{
-    font-size: 2rem;
-    text-align: justify;
-  }
-
   .infotitle h4{
     font-size: 2rem;
   }
@@ -625,9 +627,6 @@ header{
     width: 2rem;
   }
 
-  .carousel-indicators{
-    display: none;
-  }
 }
 
 @media (max-width: 576px){
