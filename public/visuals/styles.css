@@ -45,6 +45,7 @@ header{
   justify-content: center;
   text-align: center;
   padding: 0.5rem 0;
+  min-height: 6rem;
 }
 
 .navtitle a span{
@@ -55,12 +56,21 @@ header{
 }
 
 .nav-button{
-  width: 8rem;
+  width: 10rem;
   margin: 0.5rem 0.5rem;
+  font-size: 1.25rem;
 }
 
 .navbar-brand{
   font-size: 1.5rem;
+}
+
+.dropdown-item{
+  font-size: 1.25rem;
+}
+
+.dropdown-toggle{
+  font-size: 1.25rem;
 }
 
 .navbar-toggler{
