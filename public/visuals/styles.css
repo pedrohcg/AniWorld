@@ -19,6 +19,7 @@ h1, h2, h3{
 
 h1#site-title{
   font-size: 10rem;
+  text-shadow: 4px 3px 2px var(--color-orange);
 }
 
 .navbarsection a{
@@ -49,7 +50,7 @@ a.card-btn{
   font-size: 1.5rem;
   color: var(--color-white);
   font-weight: bold;
-  text-shadow: 0.25rem 0.188rem 0.125rem var(--color-orange);
+  text-shadow: 4px 3px 2px var(--color-orange);
 }
 
 .nav-button{
@@ -150,6 +151,7 @@ a.card-btn{
   color: var(--color-orange);
   font-weight: bold;
   font-size: 2.5rem;
+  text-shadow: 4px 3px 2px white;
 }
 
 .background-text{
@@ -349,14 +351,14 @@ a.card-btn{
 
 .card-header h1 span{
   font-weight: bold;
-  text-shadow: 0.25rem 0.188rem 0.125rem var(--color-orange);
+  text-shadow: 4px 3px 2px var(--color-orange);
 }
 
 .titleSubscription h1 span{
   font-size: 6rem;
   color: white;
   font-weight: bold;
-  text-shadow: 0.25rem 0.188rem 0.125rem black;
+  text-shadow: 4px 3px 2px black;
 }
 
 /* .card-body h2,p{
@@ -457,7 +459,7 @@ a.card-btn{
   font-weight: normal;
   font-size: 2.5rem;
   margin-right: 1rem;
-  text-shadow: 0.25rem 0.188rem 0.125rem var(--color-orange);
+  text-shadow: 4px 3px 2px var(--color-orange);;
 }
 
 .iconlinks{
@@ -499,7 +501,7 @@ a.card-btn{
   padding: 0;
   margin-left: 1.15rem;
   font-weight: bold;
-  text-shadow: 0.2rem 0.188rem 0.125rem var(--color-black);
+  text-shadow: 4px 3px 2px black;
 }
 
 .infotitle img{
@@ -529,7 +531,7 @@ a.card-btn{
   font-size: 1.5rem;
   color: var(--color-white);
   font-weight: bold;
-  text-shadow: 0.25rem 0.188rem 0.125rem var(--color-orange);
+  text-shadow: 4px 3px 2px var(--color-orange);
 }
 
 .ani img{
@@ -560,7 +562,7 @@ a.card-btn{
   transition: 1.5s;
   font-weight: bold;
   color: var(--color-orange);
-  text-shadow: 0.5rem 0.125rem 1rem var(--color-black);
+  text-shadow: 4px 3px 2px black;
 }
 
 @media (max-width: 983px){
