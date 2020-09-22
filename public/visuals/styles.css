@@ -208,7 +208,7 @@ a.card-btn{
 .anime-title{
   color: orange;
   font-style: bold;
-  font-size: 2.5rem;
+  font-size: 3.5rem;
   padding: 1rem 0;
   text-align: center;
 }
@@ -216,7 +216,8 @@ a.card-btn{
 .synopsis{
   font-family: 'Merriweather';
   color: gray;
-  font-size: 1.3rem;
+  font-weight: bold;
+  font-size: 1.4rem;
   text-align: justify;
 }
 
@@ -583,7 +584,7 @@ a.card-btn{
     padding: 0.5rem 0;
   }
 
-  .card-cell{
+  .card-div{
     width: 70%;
     height: 70%;
   }
